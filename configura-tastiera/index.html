@@ -1,0 +1,1908 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Custom S.p.A.">
+      
+      
+        <link rel="canonical" href="https://github.com/ivanrobuschi-custom/inventa_one_changelog.git/configura-tastiera/">
+      
+      
+        <link rel="prev" href="../verifiche-installatore/">
+      
+      
+        <link rel="next" href="../stampanti-comande/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/icons/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
+    
+    
+      
+        <title>Configura tastiera: selezione multipla, copia e nuovi tasti - Inventa One 2.0.21 - Changelog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#configura-tastiera-selezione-multipla-copia-e-nuovi-tasti" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href=".." title="Inventa One 2.0.21 - Changelog" class="md-header__button md-logo" aria-label="Inventa One 2.0.21 - Changelog" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Inventa One 2.0.21 - Changelog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Configura tastiera: selezione multipla, copia e nuovi tasti
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Condividi" aria-label="Condividi" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../prima-di-aggiornare/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Aggiornamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../novita-release/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Novità e correzioni
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../configurazione-guidata/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Guide operative
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../download/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Download
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Inventa One 2.0.21 - Changelog" class="md-nav__button md-logo" aria-label="Inventa One 2.0.21 - Changelog" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    Inventa One 2.0.21 - Changelog
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../prima-di-aggiornare/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggiornamento
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../novita-release/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Novità e correzioni
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide operative
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guide operative
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configurazione
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configurazione
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configurazione-guidata/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configurazione guidata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parametri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Parametri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../verifiche-installatore/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verifiche per l'installatore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configura tastiera
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configura tastiera
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entrare-e-uscire-dalla-modifica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrare e uscire dalla modifica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cambiare-pagina-e-clonarla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cambiare pagina e clonarla
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selezionare-piu-tasti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selezionare più tasti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#copiare-tasti-su-altre-pagine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copiare tasti su altre pagine
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incollare-un-tasto-su-piu-tasti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Incollare un tasto su più tasti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scambiare-due-tasti-col-trascinamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scambiare due tasti col trascinamento
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#colori-e-stili" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Colori e stili
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#annullare-tutto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Annullare tutto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nuovo-tasto-funzioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nuovo tasto «Funzioni»
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nuovo-tasto-gruppo-reparti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nuovo tasto «Gruppo reparti»
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stampe e comande
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Stampe e comande
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stampanti-comande/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stampanti comande
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../layout-di-stampa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Layout di stampa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../segue-blocca-articoli-avanzati/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Segue già in cucina
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fatture e backup
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fatture e backup
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fattura-differita/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fattura differita
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backup-ripristino/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backup e ripristino
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accesso
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Accesso
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recupero-password/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recupero password
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../download/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Download
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entrare-e-uscire-dalla-modifica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrare e uscire dalla modifica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cambiare-pagina-e-clonarla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cambiare pagina e clonarla
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selezionare-piu-tasti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selezionare più tasti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#copiare-tasti-su-altre-pagine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Copiare tasti su altre pagine
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incollare-un-tasto-su-piu-tasti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Incollare un tasto su più tasti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scambiare-due-tasti-col-trascinamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scambiare due tasti col trascinamento
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#colori-e-stili" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Colori e stili
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#annullare-tutto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Annullare tutto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nuovo-tasto-funzioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nuovo tasto «Funzioni»
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nuovo-tasto-gruppo-reparti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nuovo tasto «Gruppo reparti»
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigazione" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href=".." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../configurazione-guidata/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Guide operative
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../configurazione-guidata/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Configurazione
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="configura-tastiera-selezione-multipla-copia-e-nuovi-tasti">Configura tastiera: selezione multipla, copia e nuovi tasti</h1>
+<p>La novità principale è la selezione multipla dei tasti con le azioni di gruppo: prima ogni operazione si ripeteva tasto per tasto, ora si selezionano più tasti e si agisce su tutti insieme. Clona pagina, scambio col trascinamento e colori personalizzati esistevano già: ora sono più affidabili e si applicano a più tasti alla volta. Queste funzioni ci sono solo nella linea 2.0: nella 1.0.x non ci sono.</p>
+<p><a href="../assets/resources/guida-configura-tastiera.pdf">Scarica la guida «Configura tastiera: copiare e incollare più in fretta» in PDF</a> · <a href="../assets/resources/tastiera-modifiche-ottobre-2026.pdf">Scarica «Tastiera Inventa One – modifiche (ottobre 2026)» in PDF</a></p>
+<table>
+<thead>
+<tr>
+<th>Funzione</th>
+<th>Cosa cambia per chi configura</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Selezione multipla e azioni di gruppo</td>
+<td>«Seleziona» e «Azioni (N)»: copia su altre pagine, applica stile, svuota, tasto dinamico, copia/incolla in blocco</td>
+</tr>
+<tr>
+<td>Copia e incolla su più tasti</td>
+<td>«Copia» con tutto già spuntato; incollando il tipo su N tasti si scelgono N reparti/funzioni/pagamenti da una lista</td>
+</tr>
+<tr>
+<td>Clona pagina</td>
+<td>Pulsante «Clona» grande, pagina nuova subito visibile, nome proposto, avvisi</td>
+</tr>
+<tr>
+<td>Scambio col trascinamento</td>
+<td>Si sposta tutto il contenuto del tasto; bloccato se un tasto coprirebbe i vicini</td>
+</tr>
+<tr>
+<td>Colori e stili</td>
+<td>Stile applicato a più tasti; colori che seguono copia, scambio e annullo</td>
+</tr>
+<tr>
+<td>Annulla modifica tastiera</td>
+<td>Toglie anche pagine e tasti nati in modifica; ritentabile se il backoffice rifiuta</td>
+</tr>
+<tr>
+<td>Tasto «Gruppo reparti»</td>
+<td>Nuova anagrafica Gruppi reparto e funzione di tasto che apre i reparti del gruppo</td>
+</tr>
+<tr>
+<td>Tasto «Funzioni»</td>
+<td>Un solo tasto che raccoglie più funzioni</td>
+</tr>
+</tbody>
+</table>
+<h2 id="entrare-e-uscire-dalla-modifica">Entrare e uscire dalla modifica</h2>
+<ol>
+<li>Aprire la vendita senza sala né tavolo selezionati, altrimenti compare «È necessario deselezionare sala o tavolo per modificare la tastiera».</li>
+<li>Menu dell'operatore → <strong>Configura tastiera</strong>: la barra di stato mostra «In modifica» e in alto compaiono <strong>PAGINE</strong> e <strong>SELEZIONA</strong>.</li>
+<li>Per finire, di nuovo il menu dell'operatore → <strong>Conferma modifica tastiera</strong> per tenere tutto, oppure <strong>Annulla modifica tastiera</strong> per tornare a com'era.</li>
+</ol>
+<p>In modifica:</p>
+<ul>
+<li>un tocco su un tasto apre la sua configurazione;</li>
+<li>la pressione lunga apre il menu del tasto: tasto dinamico, «Copia configurazione tasto», «Incolla configurazione tasto», «Copia sulle pagine selezionate»;</li>
+<li>trascinando un tasto sopra un altro i due si scambiano;</li>
+<li>tutti i tasti sono grigi: i colori nuovi si vedono in vendita dopo la conferma;</li>
+<li>sugli schermi stretti Home e Pref spariscono dalla barra: per cambiare pagina si usa PAGINE.</li>
+</ul>
+<p><img alt="Il menu che si apre con la pressione lunga su un tasto" src="../assets/images/tastiera-menu-pressione-lunga.png" /></p>
+<p><em>Il menu che si apre con la pressione lunga su un tasto</em></p>
+<h2 id="cambiare-pagina-e-clonarla">Cambiare pagina e clonarla</h2>
+<ol>
+<li>
+<p><strong>PAGINE</strong> apre «Seleziona pagina», con la pagina corrente evidenziata: si passa da una pagina all'altra senza uscire dalla modifica.</p>
+<p><img alt="Seleziona pagina, con Clona su ogni pagina" src="../assets/images/tastiera-1-pagine-clona.png" /></p>
+<p><em>Seleziona pagina, con Clona su ogni pagina</em></p>
+</li>
+<li>
+<p>Sotto la pagina da copiare toccare <strong>Clona</strong> e confermare il nome proposto («&lt;pagina&gt;_replica», poi «_replica 2»…) o scriverne un altro. Un nome già usato viene rifiutato.</p>
+<p><img alt="Il nome della pagina nuova" src="../assets/images/tastiera-clona-nome-pagina.png" /></p>
+<p><em>Il nome della pagina nuova</em></p>
+</li>
+<li>
+<p>La pagina nuova compare subito dopo quella di partenza, evidenziata in verde.</p>
+<p><img alt="La pagina clonata nella finestra Seleziona pagina" src="../assets/images/tastiera-clona-pagina-creata.png" /></p>
+<p><em>La pagina clonata nella finestra Seleziona pagina</em></p>
+</li>
+</ol>
+<p>Da sapere:</p>
+<ul>
+<li>La copia comprende anche le modifiche non ancora confermate. «Annulla modifica tastiera» non cancella la pagina nuova.</li>
+<li>Se le pagine del terminale sono assegnate dal backoffice, la pagina nuova va assegnata da lì, altrimenti alla riapertura non compare.</li>
+</ul>
+<p>Cosa è cambiato rispetto a prima:</p>
+<ul>
+<li>Il pulsante Clona era un tondino difficile da toccare sul palmare: ora è una barra a tutta larghezza con icona e scritta.</li>
+<li>La pagina clonata si vede subito, senza chiudere e riaprire la finestra.</li>
+<li>Un doppio tocco non crea più due copie, e la finestra resta bloccata finché la copia non finisce.</li>
+<li>Un nome già usato viene rifiutato e la finestra del nome si ripropone.</li>
+<li>Una pagina senza tasti si clona come pagina vuota.</li>
+</ul>
+<h2 id="selezionare-piu-tasti">Selezionare più tasti</h2>
+<ol>
+<li>Toccare <strong>SELEZIONA</strong>: l'icona diventa verde e compare <strong>AZIONI (N)</strong>.</li>
+<li>Toccare i tasti uno per uno, oppure trascinare un rettangolo sulla griglia: i tasti scelti prendono il bordo verde.</li>
+<li>Toccare <strong>AZIONI (N)</strong>, oppure tenere premuto un tasto: si apre il menu delle azioni (Seleziona tutti, Deseleziona, Copia e Incolla configurazione tasto, Attiva e Disattiva tasto dinamico, Copia su altre pagine, Applica stile, Svuota tasti).</li>
+<li>Per finire, toccare di nuovo SELEZIONA: la selezione si azzera.</li>
+</ol>
+<p><img alt="Tre tasti selezionati e il menu AZIONI" src="../assets/images/tastiera-2-selezione-azioni.png" /></p>
+<p><em>Tre tasti selezionati e il menu AZIONI</em></p>
+<table>
+<thead>
+<tr>
+<th>Voce del menu</th>
+<th>Cosa fa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seleziona tutti / Deseleziona</td>
+<td>Seleziona o libera tutti i tasti della pagina</td>
+</tr>
+<tr>
+<td>Copia configurazione tasto</td>
+<td>Attiva con un solo tasto selezionato: copia gli aspetti scelti</td>
+</tr>
+<tr>
+<td>Incolla configurazione tasto</td>
+<td>Incolla gli aspetti copiati su tutti i tasti selezionati</td>
+</tr>
+<tr>
+<td>Attiva / Disattiva tasto dinamico</td>
+<td>Rende dinamici (o no) tutti i tasti selezionati</td>
+</tr>
+<tr>
+<td>Copia su altre pagine</td>
+<td>Copia i tasti selezionati nelle stesse posizioni delle pagine scelte</td>
+</tr>
+<tr>
+<td>Applica stile</td>
+<td>Assegna uno stile a tutti i tasti selezionati, togliendo i colori personalizzati</td>
+</tr>
+<tr>
+<td>Svuota tasti</td>
+<td>Cancella il contenuto dei tasti selezionati, con conferma</td>
+</tr>
+</tbody>
+</table>
+<p>Da sapere:</p>
+<ul>
+<li>Scontrino e tastierino non si selezionano.</li>
+<li>Con SELEZIONA acceso lo scambio per trascinamento è sospeso e la barra nasconde Home, Pref e Num; cambiare pagina azzera la selezione.</li>
+<li>Durante un'azione la cassa resta in attesa; alla fine un solo messaggio riporta i tasti aggiornati e quelli saltati.</li>
+</ul>
+<h2 id="copiare-tasti-su-altre-pagine">Copiare tasti su altre pagine</h2>
+<p>Selezionare i tasti → <strong>Copia su altre pagine</strong> → spuntare le pagine → Conferma. I tasti finiscono nelle stesse posizioni delle pagine scelte.</p>
+<p><img alt="Scelta delle pagine su cui copiare" src="../assets/images/tastiera-3-copia-su-pagine.png" /></p>
+<p><em>Scelta delle pagine su cui copiare</em></p>
+<ul>
+<li>Per rendere una pagina uguale a un'altra: dalla pagina di partenza <strong>Seleziona tutti</strong> e poi Copia su altre pagine.</li>
+<li>Un tasto che sulla pagina di destinazione coprirebbe lo scontrino, il tastierino o un tasto grande viene saltato; il messaggio finale lo dice.</li>
+<li>Vengono proposte solo le pagine della cassa, esclusa quella corrente. La funzione non c'è in «Configura tastiera palmari».</li>
+</ul>
+<h2 id="incollare-un-tasto-su-piu-tasti">Incollare un tasto su più tasti</h2>
+<ol>
+<li>
+<p>Tenere premuto il tasto da copiare (oppure selezionarlo e aprire AZIONI) → <strong>Copia configurazione tasto</strong>. Tipo, dimensione, grafica e icona sono già spuntati → OK.</p>
+<p><img alt="Cosa copiare dal tasto" src="../assets/images/tastiera-4-elementi-da-copiare.png" /></p>
+<p><em>Cosa copiare dal tasto</em></p>
+</li>
+<li>
+<p>SELEZIONA → toccare i tasti di destinazione → AZIONI → <strong>Incolla configurazione tasto</strong> → OK.</p>
+<p><img alt="Conferma dell'incolla su più tasti" src="../assets/images/tastiera-5-incolla-conferma.png" /></p>
+<p><em>Conferma dell'incolla su più tasti</em></p>
+</li>
+<li>
+<p>Se il tasto copiato è un reparto, una funzione, un pagamento o una pagina, si apre la lista a scelta multipla: si sceglie un elemento per ogni tasto, con il contatore «x di N». Conferma si attiva solo a selezione completa.</p>
+<p><img alt="Lista con il segno «già presente» e il contatore" src="../assets/images/tastiera-6-lista-gia-presenti.png" /></p>
+<p><em>Lista con il segno «già presente» e il contatore</em></p>
+</li>
+<li>
+<p>Il primo elemento spuntato va sul primo tasto e così via; i tasti si salvano senza aprire la loro configurazione e compare «Tasti configurati: N, saltati: 0».</p>
+<p><img alt="Cinque tasti configurati in un colpo" src="../assets/images/tastiera-incolla-tasti-configurati.png" /></p>
+<p><em>Cinque tasti configurati in un colpo</em></p>
+</li>
+</ol>
+<p>Da sapere:</p>
+<ul>
+<li>Il segno verde indica gli elementi già presenti in tastiera; <strong>Nascondi già presenti</strong> li toglie dalla lista. Lo stesso segno compare quando si modifica un tasto a mano.</li>
+<li>Si copiano anche icona e grafica: se non servono, togliere «icona» e «grafica» nella finestra di copia.</li>
+<li>Gli articoli si scelgono ancora uno alla volta, ma senza passare dalla configurazione del tasto.</li>
+<li>Se gli elementi disponibili sono meno dei tasti compare un avviso; chiudendo la lista senza conferma i tasti restano com'erano.</li>
+<li>Una dimensione più grande sposta i vicini nella prima cella libera; se uno non trova posto, quel tasto si salta.</li>
+<li>Il tipo scontrino o tastierino non si incolla su più tasti.</li>
+</ul>
+<h2 id="scambiare-due-tasti-col-trascinamento">Scambiare due tasti col trascinamento</h2>
+<ol>
+<li>Con SELEZIONA spento, trascinare un tasto sopra un altro e rilasciare.</li>
+<li>
+<p>I due tasti si scambiano subito, con il loro colore e l'eventuale report collegato.</p>
+</li>
+<li>
+<p>Se un tasto grande coprirebbe i vicini o lo scontrino, o uscirebbe dal bordo, lo scambio si blocca con il messaggio «Tasti non scambiati…».</p>
+</li>
+<li>Scontrino e tastierino non si scambiano; le celle lasciate libere da un tasto grande diventano tasti vuoti da configurare.</li>
+</ol>
+<p><img alt="Scambio bloccato: un tasto grande coprirebbe i vicini" src="../assets/images/tastiera-scambio-bloccato.png" /></p>
+<p><em>Scambio bloccato: un tasto grande coprirebbe i vicini</em></p>
+<h2 id="colori-e-stili">Colori e stili</h2>
+<ul>
+<li>
+<p><strong>Un tasto</strong>: toccare il tasto → «Seleziona una grafica per il pulsante» per lo stile, oppure riquadro <strong>Colori Personalizzati</strong> → Abilita per un colore libero.</p>
+<p><img alt="Stile e colori personalizzati nella configurazione del tasto" src="../assets/images/tastiera-stile-colori-personalizzati.png" /></p>
+<p><em>Stile e colori personalizzati nella configurazione del tasto</em></p>
+</li>
+<li>
+<p><strong>Più tasti</strong>: SELEZIONA → toccare i tasti → AZIONI → <strong>Applica stile</strong> → scegliere lo stile (Funzioni, Articoli, Reparti, Pagamenti…) → confermare. I colori personalizzati di quei tasti vengono tolti.</p>
+<p><img alt="Scelta dello stile per sette tasti" src="../assets/images/tastiera-applica-stile.png" /></p>
+<p><em>Scelta dello stile per sette tasti</em></p>
+</li>
+<li>
+<p>Dopo «Conferma modifica tastiera» i colori si vedono in vendita.</p>
+<p><img alt="I tasti con lo stile nuovo in vendita" src="../assets/images/tastiera-stile-in-vendita.png" /></p>
+<p><em>I tasti con lo stile nuovo in vendita</em></p>
+</li>
+<li>
+<p>I colori seguono anche copia e incolla della grafica, Copia su altre pagine, lo scambio e l'annullo. In vendita una cella vuota non prende più i colori di un altro tasto.</p>
+</li>
+</ul>
+<h2 id="annullare-tutto">Annullare tutto</h2>
+<p><strong>Annulla modifica tastiera</strong> riporta la tastiera esattamente com'era quando si è entrati in modifica: tasti modificati, pagine visitate, tastierino dinamico, colori personalizzati (anche sui terminali client), pagine di destinazione di una copia, pagine e tasti creati in modifica (anche sul backoffice) e celle vuote diventate tasti.</p>
+<ul>
+<li>Se il backoffice rifiuta o non risponde, si resta in modifica, compare il motivo e l'annullo si può ritentare.</li>
+<li>Due eccezioni, segnalate a video: la pagina creata con Clona resta, e la modifica del riquadro di vendita dei palmari non si annulla.</li>
+</ul>
+<h2 id="nuovo-tasto-funzioni">Nuovo tasto «Funzioni»</h2>
+<p>Un solo tasto che raccoglie tutte le funzioni: in vendita apre l'elenco delle funzioni disponibili, utile sulle tastiere con poco spazio.</p>
+<h2 id="nuovo-tasto-gruppo-reparti">Nuovo tasto «Gruppo reparti»</h2>
+<p>Un solo tasto raggruppa più reparti: in vendita fa scegliere il reparto del gruppo e poi si comporta come il tasto Reparto. Serve a tenere in tastiera un tasto «Bevande» invece di cinque tasti reparto.</p>
+<ol>
+<li><strong>Anagrafica</strong>: Configura tabelle di base → <strong>Gruppi reparto</strong> (subito sotto Reparti, stesso permesso dei Reparti). Si creano descrizione e ordine; un gruppo con reparti assegnati non si cancella.</li>
+<li><strong>Reparti</strong>: nella pagina Reparti c'è la tendina <strong>Gruppo</strong> (Nessuno o un gruppo).</li>
+<li><strong>Tasto</strong>: in Configura tastiera si sceglie la funzione «Gruppo reparti» e il gruppo da elenco; l'etichetta del tasto prende il nome del gruppo.</li>
+<li><strong>Vendita</strong>: si digita l'importo e si preme il tasto; compare la scelta dei reparti del gruppo (con un solo reparto non chiede niente) e la riga viene battuta sul reparto scelto.</li>
+</ol>
+<p><img alt="Anagrafica Gruppi reparto" src="../assets/images/tastiera-gruppi-reparto-anagrafica.png" /></p>
+<p><em>Anagrafica Gruppi reparto</em></p>
+<p><img alt="In vendita: scelta del reparto del gruppo «bevande»" src="../assets/images/tastiera-gruppo-reparti-vendita.png" /></p>
+<p><em>In vendita: scelta del reparto del gruppo «bevande»</em></p>
+<ul>
+<li>Come il tasto Reparto, a display vuoto il tasto non fa nulla, salvo con i tasti dinamici o sul palmare. Un gruppo senza reparti mostra «Nessun reparto nel gruppo».</li>
+<li>I gruppi si sincronizzano col backoffice e il tasto si configura anche dall'editor tastiera web del backoffice.</li>
+</ul>
+<details class="info">
+<summary>Riferimenti</summary>
+<p>Vale per Inventa One 2.0.21 (schermate della 2.0.20 e della prova del 29/10 sulla versione di test). Guida verificata il 16/11/2026.</p>
+<p>FST e card di riferimento: FST-3191, <a href="https://customgroup.atlassian.net/browse/IFEV-3523">IFEV-3523</a>, <a href="https://customgroup.atlassian.net/browse/IFEV-3881">IFEV-3881</a>, <a href="https://customgroup.atlassian.net/browse/IFEV-3882">IFEV-3882</a>, <a href="https://customgroup.atlassian.net/browse/IFEV-2953">IFEV-2953</a>, <a href="https://customgroup.atlassian.net/browse/IFEV-3619">IFEV-3619</a>, <a href="https://customgroup.atlassian.net/browse/IFEV-3339">IFEV-3339</a>, <a href="https://customgroup.atlassian.net/browse/IFEV-3338">IFEV-3338</a>, <a href="https://customgroup.atlassian.net/browse/IFEV-3337">IFEV-3337</a>, <a href="https://customgroup.atlassian.net/browse/IFEV-3896">IFEV-3896</a>, <a href="https://customgroup.atlassian.net/browse/IFEV-3617">IFEV-3617</a>, <a href="https://customgroup.atlassian.net/browse/IFEV-2880">IFEV-2880</a>.</p>
+<p>Epiche: IFEV-3520 (copia più rapida), IFEV-3330 (problemi configurazione tastiera), IFEV-3615 (Gruppo reparti).</p>
+<p>Fonti: «Configura tastiera: copiare e incollare più in fretta», «Tastiera Inventa One – modifiche (ottobre 2026)», Guida al changelog per i tecnici installatori (cap. 9).</p>
+</details>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna su
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Piede" >
+        
+          
+          <a href="../verifiche-installatore/" class="md-footer__link md-footer__link--prev" aria-label="Precedente: Verifiche per l&#39;installatore">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Precedente
+              </span>
+              <div class="md-ellipsis">
+                Verifiche per l'installatore
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../stampanti-comande/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Stampanti comande">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Successivo
+              </span>
+              <div class="md-ellipsis">
+                Stampanti comande
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright Custom S.p.A 2026
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.preview", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.sections", "navigation.prune", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "search.share", "navigation.footer"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>
