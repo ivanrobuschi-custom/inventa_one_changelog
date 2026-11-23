@@ -1,0 +1,69 @@
+site_name: Inventa One 2.0.21 - Changelog
+site_url: https://github.com/ivanrobuschi-custom/inventa_one_changelog.git
+site_author: Custom S.p.A.
+
+theme:
+  name: material
+  logo: assets/icons/logo.png
+  favicon: assets/icons/favicon.png
+  language: it
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.sections
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+  palette:
+    primary: blue grey
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - tags
+
+copyright: Copyright Custom S.p.A 2026
+
+nav:
+  - Home: index.md
+  - Aggiornamento:
+      - Prima di aggiornare: prima-di-aggiornare.md
+      - Checklist dopo l'aggiornamento: checklist-verifiche.md
+  - Novità e correzioni:
+      - Novità della release: novita-release.md
+      - Novità per area: novita-per-area.md
+      - Correzioni principali: correzioni-principali.md
+      - Funzioni non incluse o nascoste: funzioni-non-incluse.md
+  - Guide operative:
+      - Configurazione:
+          - Configurazione guidata: configurazione-guidata.md
+          - Parametri: parametri.md
+          - Verifiche per l'installatore: verifiche-installatore.md
+          - Configura tastiera: configura-tastiera.md
+      - Stampe e comande:
+          - Stampanti comande: stampanti-comande.md
+          - Layout di stampa: layout-di-stampa.md
+          - Segue già in cucina: segue-blocca-articoli-avanzati.md
+      - Fatture e backup:
+          - Fattura differita: fattura-differita.md
+          - Backup e ripristino: backup-ripristino.md
+      - Accesso:
+          - Recupero password: recupero-password.md
+  - Download: download.md
